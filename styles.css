@@ -1,0 +1,719 @@
+/*MAster styles*/
+body{
+    grid-template-columns: flex;
+    grid-template-rows: flex;
+    line-height: 1.5;  
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+   .container{
+       width:80%;
+       margin: auto;
+       overflow: hidden;
+   }
+
+/*header*/
+ header{
+     background-color: blanchedalmond;
+     padding-top: 30px;
+     min-height: 70px;
+     border-bottom: black 1px solid;
+     padding-top: 2px;
+ }
+   
+  header a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+  }
+  header ul{
+      margin: 0;
+     padding: 0; 
+  }
+  
+  header li{
+      list-style-type: none;
+      float: left;
+      color: crimson;
+      
+  }
+  
+
+header li a{
+    color: crimson;
+    font-weight: bold;
+    
+    
+}
+
+  header #branding{
+      float: left;
+  }
+
+  header nav{
+      float: right;
+      margin-top: 10px;
+  }
+
+
+  header .highlight, header .current a{
+      color: crimson;
+      font-weight: bold;
+  }
+
+    header a:hover{
+        color: midnightblue;
+        font-weight: bold;
+    }
+
+  
+
+.img-logo5{
+    width: 245px;
+    height: 107px;
+}
+ /*head*/
+ #showcase{
+     min-height:400px;
+     background:url('./img/mountain.jpg');
+     background-position: -2000px -2000px;
+     text-align: left;
+     color: mintcream;
+     border-bottom: 0px;
+     margin-bottom: 0px;
+     padding-bottom: -5px;
+     
+ }
+ 
+ #mainheader{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     font-style: italic;
+     margin-bottom: -10px;
+ }
+ 
+ .img-formal{
+position: relative;
+top: -100px;
+
+ }
+
+
+/*mainpic*/
+
+ #seen{
+     background: url('./img/canvas.jpg');
+     margin:0;
+     background-position: 3000px 5000px;
+     height: 500px;
+     opacity: 80%;
+     padding-top: -10px;
+     padding-bottom: -30px;
+     border-bottom: 2px;
+     margin-bottom: -30px;
+     
+ }
+
+
+ .img-vote{
+     width: 300px;
+     height: 400px;
+     padding-right: 400px;
+     padding-top: 40px;
+     padding-bottom: -10px;
+     margin-right: 100px;
+     float: right;
+    }
+
+ /*info*/
+ #policies{
+     background-image: url('./img/rock1.jpg');
+     background-position: -1530px -2000px;
+     color: rgb(255, 255, 255);
+     margin-top: 0px;
+     border-top: 0px;
+     padding-top: -60px;
+     height: 700px;
+ }
+
+ #policies h1{
+     text-align: center;
+     text-align: -10px;
+     font-size: 2.0em;
+     padding-top: 1.5em;
+ }
+
+#policies ul{
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+li{
+    padding: 0.6em;
+    list-style-type: square;
+    color: mintcream;
+    font-size: 24px;
+    position: left;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.list-1{
+    margin-left: -100px; 
+    padding-top: 0.2em;  
+    text-align: left; 
+    padding-left: 90px;
+}
+
+.info{
+    font-size: 18px;
+}
+ 
+#message h1{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-style: bold, italic;
+    margin-top: 60px;
+}
+
+#message h2{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#message p {
+    text-align: center;
+    font-size: 18px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   color: rgb(56, 58, 59);
+   
+}
+
+
+#message{
+    background-color:white;
+    margin-top: -30px;
+    height: 500px;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: crimson 5px solid;
+}
+
+
+ /*contribution*/
+    
+/*about page*/
+ 
+#law h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+#law p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+ 
+.img-buisness{
+    height: 200px;
+    width: 300px;
+     margin-right: auto;
+    margin-left: 500px;
+}
+
+
+ .Whyvote h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+.Whyvote p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    font-size: 16px;
+
+}
+
+.now h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.now{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    font-size: 16px;
+
+}
+
+.img-club{
+    height: 200px;
+    width: 200px;
+    float:right;
+}
+
+
+.img-crowd{
+    height: 200px;
+    width: 300px;
+    padding-right: 500px;
+    padding-bottom: 5px;
+}
+
+
+.contact {
+    text-align: center;
+    height: 200px;
+    border-color: crimson;
+    background-color: darkgray;
+    margin-top: -20px;
+}
+
+
+
+.contact ul li{
+    display: inline;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: -15px;
+    transition: all 0.7s ease;
+    padding: 2px 2px 2px 2px;
+}
+
+.contact ul{
+    display: inline-block;
+   
+    margin-right: 30px;
+}
+
+.contact ul li:hover{
+    color: midnightblue;
+}
+
+
+.contact ul li a{
+    color: mintcream;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    
+}
+
+ .contact ul li a:hover{
+    background-color: midnightblue;
+    transition: all 0.7s ease;
+}
+
+#social li {
+    background-color: midnightblue;
+    transition: all 0.7s ease;
+    padding: 2px 2px 2px 2px;
+    font-size: 28px;
+}
+    
+#social a:hover{
+    transition: ease-in-out;
+    background-color: royalblue;
+
+
+}
+
+
+
+}
+
+
+ /*footer*/
+#foot{
+    height: 100px;
+    padding-top: 10px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: crimson;
+     height: 5px;
+
+
+  
+}
+
+ .img-paid{
+     padding-top: 20px;
+    width: 230px;
+    height: 120px;
+}
+
+/*Media Queries*/
+
+@media(max-width: 820px){
+    header #branding,
+   header nav,
+   header nav li,
+   .img-vote,
+   footer,
+   .img-buisness,
+   .img-paid,
+   .img-club
+    {
+    float: none;
+     width: 100%;
+    text-align: center;
+    
+  }
+      
+ html,body{
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0%;
+  margin: 0%;
+ }
+
+
+   header{ 
+       height: 150px;
+       flex-direction: row;
+       align-items: flex-start;
+       
+   }
+
+    header ul{
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        font-size: 14;
+    }
+
+     header li{
+        padding-left: 0;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    header li a{
+     display: inline-flex;
+     margin-left: auto;
+    margin-right: auto;
+
+    }
+
+  .img-logo5{
+        width: 250px;
+        height: 100px;
+        padding-right: 20px;
+               
+    }
+
+    
+
+    .img-formal{
+        
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;   
+
+    }
+   
+    #showcase{
+        margin-top: 0px;
+        border-top: 40px;
+        padding-top: 40px;
+    }
+
+
+    #mainheader h1,h2{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+   .img-vote{
+    max-width: 300px;
+     width: 80%;
+     height: auto;
+     margin-left: 10%;
+     margin-right: auto;
+               
+   }
+
+    
+#policies{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#policies ul li{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+
+
+}
+
+
+ #message{
+    padding-bottom: 0px;
+    height: 2000px;
+ }
+
+
+.icon ul li{
+    width: 100%;
+}
+
+
+.img-paid{
+    width: 205px;
+    height: 105px;
+
+}
+
+
+/*about*/
+
+
+
+
+#law p{
+    text-align: center;
+    
+}
+
+   .img-buisness{
+    height: 150px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+
+   }
+
+
+.img-crowd{
+    width: 250px;
+    height: 150px;
+}
+
+.img-club{
+    width: 300px;
+    height: 200px;
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-device-width : 400px) 
+and (max-device-width : 780px) {
+
+      
+    header{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    
+     .img-formal{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+     }
+    
+    .img-vote{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+    
+    
+    
+    #message {
+        width: 100%;
+        height: 100%;
+    }
+        
+    
+    .icon{
+        text-align: center;
+    
+    }
+    
+    
+    ul{   
+    width:100%;
+
+    
+    }
+    
+    .contact ul li{
+        font-size: 22px;
+
+    }
+    
+    
+    .img-social {
+        width: 200px;
+        height: 100px;
+    }
+   
+
+    #policies ul{
+text-align: left;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+
+    }
+
+
+
+
+
+#policies ul li{
+  max-width: auto;
+ margin-right: auto;
+ margin-left: auto;
+ display: inline-block;
+  font-size: 16px;
+  
+}
+
+
+
+}
+
+@media(max-width: 380px){
+
+    header{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    
+     .img-formal{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+     }
+    
+    .img-vote{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+    
+    
+    
+    #message {
+        width: 100%;
+        height: 100%;
+    }
+        
+    
+    .icon{
+        text-align: center;
+    
+    }
+    
+    
+    ul{   
+    width:100%;
+    
+    }
+  
+    
+ .img-social {
+        width: 200px;
+        height: 100px;
+ }
+   
+
+ #policies ul{
+    max-width: 100%;
+   text-align: left;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto
+   
+    }
+
+
+#policies ul li{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ display: inline-block;
+ font-size: 15px;
+  
+}
+
+
+.contact li{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 30px;
+    max-width: 100%;
+    padding-top: 5px;
+    font-size: 19px;
+    
+
+}
+
+#social{
+    text-align: center;
+}
+
+
+
+}
+
+
